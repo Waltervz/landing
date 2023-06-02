@@ -389,4 +389,16 @@ div h1{
     }
   
 }
-  
+ @media screen and (min-width: 576px) and (max-width: 992px) {
+  .contenedor {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton1,
+  .boton2 {
+    margin: 20px;
+  }
+}
+
